@@ -13,9 +13,13 @@ public class Ejercicio1 {
 		
 		System.out.println("Escribe otra palabra:");
 		String palabra2 = sc.next();
-		
-		palabras(palabra1, palabra2);
-		
+				
+		if (palabra1.equals(palabra2)) {
+			System.out.println("Las 2 palabras son iguales");
+		} else {
+			palabras(palabra1, palabra2);
+		}
+
 		sc.close();
 	}
 	
@@ -24,13 +28,11 @@ public class Ejercicio1 {
 		if (palabra1.length() > palabra2.length()) {
 			System.out.println("La primera palabra es mayor que la segunda");
 			
-		} else if (palabra2.length() > palabra1.length()) {
+		} else {
 			System.out.println("La segunda palabra es mayor que la primera");
-		
-		} else if (palabra1.length() == palabra2.length()) {
-			System.out.println("La primera palabra es igual que la segunda");
-		}
+	
 		
 	}
 
+}
 }

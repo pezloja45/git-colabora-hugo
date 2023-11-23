@@ -4,6 +4,7 @@ En este proyecto hay 12 ejercicios de Programación, los ejercicios hacen lo sig
 ## Ejercicio 1
 Si se introducen por teclado dos palabras y te indicar cuál de ellas es la más corta, es decir,
 la que contiene menos caracteres.
+jaime optimiza el codigo poniendo una comprobacion al inicio de si las 2 palabras son iguales saque un mensaje de error y optimo los if poniendo 1 if y 1 else en vez de 1 if y 2 else if
 
 ## Ejercicio 2
 Pide al usuario que introduzca una frase por teclado y te indica cuántos espacios en blanco tiene.
